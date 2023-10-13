@@ -17,6 +17,7 @@ From: fabm.sif
     cd nemo
     cp /input_files/arch/nemo-arch/* /nemo/arch/PML
 
+    # prepare a NEMO config
     echo "Compiling nemo AMM7 Config"
     ./makenemo -m singularity -r AMM7_FABM -j 8
 
